@@ -68,8 +68,18 @@ body {
   background-color: var(--accent-color);
 }
 
-.footer-contact a {
+.footer-contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
 }
 
 .footer-logo,
