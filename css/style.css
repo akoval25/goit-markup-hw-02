@@ -1,0 +1,78 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-dark-bg-color: #2f303a;
+  --secondary-light-bg-color: #f5f4fa;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: #000000;
+}
+
+.first-part-logo {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+.quality-title,
+.work-title,
+.team-title,
+.team-member,
+.portfolio-project {
+  color: var(--title-text-color);
+}
+
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-light-bg-color);
+}
+
+.portfolio-button:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.hero-button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo,
+.footer-address {
+  color: var(--primary-bg-color);
+}
