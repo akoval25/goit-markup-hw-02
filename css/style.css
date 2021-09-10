@@ -178,3 +178,7 @@ body {
 .portfolio-button {
   cursor: pointer;
 }
+
+address {
+  font-style: normal;
+}
