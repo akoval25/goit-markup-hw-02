@@ -22,6 +22,7 @@ body {
   font-style: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .footer-logo {
@@ -30,25 +31,24 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-align: left;
+  text-decoration: none;
 }
 
 .list {
   list-style: none;
 }
 
-.contacts .link {
+.contacts-link {
   color: var(--primary-text-color);
 }
 
 .first-part-logo,
-.site-nav .link:hover,
-.site-nav .link:focus,
-.contacts .link:hover,
-.contacts .link:focus,
+.site-nav-link:hover,
+.site-nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
 .footer-contact:hover,
-.footer-contact:focus,
-.contacts .link:hover,
-.contacts .link:focus {
+.footer-contact:focus {
   color: var(--accent-color);
 }
 
@@ -58,7 +58,7 @@ body {
   color: var(--primary-bg-color);
 }
 
-.site-nav .link,
+.site-nav-link,
 .quality-title,
 .work-title,
 .team-title,
@@ -91,12 +91,13 @@ body {
   letter-spacing: 0.06em;
 }
 
-.site-nav,
-.contacts {
+.site-nav-link,
+.contacts-link {
   letter-spacing: 0.02em;
   font-style: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 
 .hero-title {
@@ -153,6 +154,7 @@ body {
   line-height: 1.71;
   text-align: left;
   align-items: left;
+  text-decoration: none;
 }
 
 .portfolio-project {
